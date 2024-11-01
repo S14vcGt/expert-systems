@@ -1,0 +1,3 @@
+pyke
+nltk
+numpy
