@@ -8,5 +8,5 @@
 cd /workspaces/expert-systems/.devcontainer/pyke-1.1.1
 
 # Ejecuta el script setup.py
-python /workspaces/expert-systems/.devcontainer/pyke-1.1.1/setup.py build
-sudo python /workspaces/expert-systems/.devcontainer/pyke-1.1.1/setup.py install
+python setup.py build
+sudo python setup.py install
