@@ -1,7 +1,7 @@
 # expert-systems
 Expert Systems university course repository
 
-Ejecuta  `chmod 777 /workspaces/expert-systems/.devcontainer/pykeInstall.sh` 
+Ejecuta  `sudo chmod 777 /workspaces/expert-systems/.devcontainer/pykeInstall.sh` 
 segidamente de `/workspaces/expert-systems/.devcontainer/pykeInstall.sh` en 
 la terminal del contenedor para instalar Pyke
 
