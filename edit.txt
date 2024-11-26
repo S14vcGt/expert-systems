@@ -1,0 +1,8 @@
+
+protostomo(molusca)
+segmentado(annelida)
+segmentado(arthropoda)
+
+deuterostomo(echinodermata)
+segmentado(chordata)
+
