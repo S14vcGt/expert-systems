@@ -5,8 +5,8 @@
 #rm pyke3-1.1.1.zip
 
 # Navega al directorio extraído
-cd pyke-1.1.1
+cd /workspaces/expert-systems/.devcontainer/pyke-1.1.1
 
 # Ejecuta el script setup.py
-python setup.py build
-sudo python setup.py install
+python /workspaces/expert-systems/.devcontainer/pyke-1.1.1/setup.py build
+sudo python /workspaces/expert-systems/.devcontainer/pyke-1.1.1/setup.py install

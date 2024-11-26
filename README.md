@@ -1,6 +1,10 @@
 # expert-systems
 Expert Systems university course repository
 
+Ejecuta  `chmod 777 /workspaces/expert-systems/.devcontainer/pykeInstall.sh` 
+segidamente de `/workspaces/expert-systems/.devcontainer/pykeInstall.sh` en 
+la terminal del contenedor para instalar Pyke
+
 ## some resources we should check
 
 - [A mini tutorial to ES in Python](https://medium.com/a-42-journey/expert-systems-how-to-implement-a-backward-chaining-resolver-in-python-bf7d8924f72f)

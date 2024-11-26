@@ -16,7 +16,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "pip3 install --user -r requirements.txt; python -m nltk.downloader popular; ./pykeInstall.sh",
+  "postCreateCommand": "pip3 install --user -r requirements.txt; python -m nltk.downloader popular",
 
   // Configure tool-specific properties.
   "customizations": {
