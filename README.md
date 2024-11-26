@@ -5,6 +5,10 @@ Ejecuta  `chmod 777 /workspaces/expert-systems/.devcontainer/pykeInstall.sh`
 segidamente de `/workspaces/expert-systems/.devcontainer/pykeInstall.sh` en 
 la terminal del contenedor para instalar Pyke
 
+## Documentacion sobre lo hecho hasta ahora
+
+![documentacion sobre lo hecho hasta ahora](image.png)
+
 ## some resources we should check
 
 - [A mini tutorial to ES in Python](https://medium.com/a-42-journey/expert-systems-how-to-implement-a-backward-chaining-resolver-in-python-bf7d8924f72f)
