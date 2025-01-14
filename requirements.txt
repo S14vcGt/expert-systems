@@ -1,3 +1,3 @@
-nltk
-numpy
-#pyke (solo con proposito de probar si se instalo)
+pandas
+scikit-learn
+tensorflow
