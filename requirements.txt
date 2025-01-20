@@ -1,3 +1,2 @@
-nltk
+flask
 numpy
-#pyke (solo con proposito de probar si se instalo)
