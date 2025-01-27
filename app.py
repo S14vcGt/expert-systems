@@ -1,7 +1,8 @@
 from flask import Flask, request
 from model.model import dumb_answer
-
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def get_user():
