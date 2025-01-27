@@ -1,5 +1,5 @@
 import tensorflow as tf
-from model.preprocessing import X_train, X_test, y_train, y_test
+from preprocessing import X_train, X_test, y_train, y_test
 
 # Crear el modelo de red neuronal
 model = tf.keras.Sequential([

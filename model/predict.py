@@ -1,6 +1,6 @@
 import numpy as np
-from model.model import model
-from model.preprocessing import X_test, label_encoder
+from model import model
+from preprocessing import X_test, label_encoder
 import pandas as pd
 
 # Nuevo organismo

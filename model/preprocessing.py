@@ -1,6 +1,6 @@
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from model.data import df, labels
+from data import df, labels
 import pandas as pd
 
 # Codificación de etiquetas
