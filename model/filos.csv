@@ -1,0 +1,14 @@
+Phylum,tejido,organos,sistemas,simetria_radial,simetria_bilateral,diploblastico,triploblastico,segmentacion,seudocelomados,celomados,sis_digetivo_incompleto,sis_digestivo_completo,sis_nervioso_difuso,sis_nervioso_ganglionar,sis_nervioso_central,endoesqueleto,exoesqueleto,sis_corporal,rep_sexual,rep_asexual,habitat_terrestre,habitat_acuatico,parasitario
+chordata,1,1,1,0,1,0,1,1,0,1,0,1,0,0,1,1,0,0,1,0,1,1,0
+echinodermata,1,1,0,1,0,0,1,0,0,1,0,1,1,0,0,1,0,0,1,0,0,1,0
+arthropoda,1,1,0,0,1,0,1,1,0,1,0,1,0,1,0,0,1,0,1,0,1,1,0
+annelida,1,1,0,0,1,0,1,1,0,1,0,1,0,1,0,0,0,1,1,0,1,1,0
+molusca,1,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,1,1,0
+rotifera,1,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,1,1,1,0,1,0
+nematoda,1,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,1,1,0,0,1,1
+nemertea,1,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0
+platyhelmithes,1,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,1,0,0,1,1
+ctenophera,1,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,0
+cnidaria,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,1,0
+polifera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0
+protozooarios,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1

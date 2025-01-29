@@ -1,23 +1,39 @@
-import tensorflow as tf
-from preprocessing import X_train, X_test, y_train, y_test
+from tensorflow.keras.models import load_model
+import numpy as np
 
-# Crear el modelo de red neuronal
-model = tf.keras.Sequential([
-    tf.keras.layers.Dense(64, activation="relu", input_shape=(X_train.shape[1],)),
-    tf.keras.layers.Dense(32, activation="relu"),
-    tf.keras.layers.Dense(11, activation="softmax")  # 11 phyla
-])
 
-# Compilar el modelo
-model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+def model_answer(input):
+    question = np.array(input)
+    question = question.reshape(1, -1)
+    model = load_model('modelo.keras')
 
-# Entrenar el modelo
-history = model.fit(X_train, y_train, epochs=50, batch_size=4, validation_data=(X_test, y_test))
+    pred = np.argmax(model.predict(question))
+    return pred
 
-# Evaluar el modelo
-loss, accuracy = model.evaluate(X_test, y_test)
-print(f"Loss: {loss}")
-print(f"Accuracy: {accuracy}")
 
-# Guardar el modelo entrenado
-model.save('model_entrenado.h5')
+def user_friendly_answer(array):
+    
+    ans = model_answer(array)
+
+    filos = {
+        0: 'chordata',
+        1: 'echinodermata',
+        2: 'arthropoda',
+        3: 'annelida',
+        4: 'molusca',
+        5: 'rotifera',
+        6: 'nematoda',
+        7: 'nemertea',
+        8: 'platyhelmithes',
+        9: 'ctenophera',
+        10: 'cnidaria',
+        11: 'polifera',
+        12: 'protozooarios'
+    }
+
+    return filos[ans]
+
+
+if __name__ == '__main__':
+    print(user_friendly_answer([1, 1, 1, 0, 1, 0, 1, 1, 0, 1,
+          0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0]))
