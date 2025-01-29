@@ -1,9 +1,7 @@
 # expert-systems
 Expert Systems university course repository
 
-Ejecuta  `chmod 777 /workspaces/expert-systems/.devcontainer/pykeInstall.sh` 
-segidamente de `/workspaces/expert-systems/.devcontainer/pykeInstall.sh` en 
-la terminal del contenedor para instalar Pyke
+para correr el servidor se puede usar `gunicorn app:app`, tomara el puerto 8000
 
 ## Documentacion sobre lo hecho hasta ahora
 
