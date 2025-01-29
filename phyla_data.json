@@ -1,0 +1,197 @@
+{
+    "protozoa": {
+        "caracteristicas": {
+            "nivel_organizacion": "unicelular",
+            "simetria": "variada",
+            "capas_germinales": "ninguna",
+            "cavidad_corporal": "ausente",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "ausente",
+            "sistema_nervioso": "ausente",
+            "sistema_corporal": "ausente",
+            "reproduccion": "asexual o sexual",
+            "habitat": "acuatico o parasito"
+        },
+        "definicion": "Organismos unicelulares con diversas formas de locomoción y alimentación, presentes en ambientes acuáticos y como parásitos."
+    },
+    "nemertea": {
+        "caracteristicas": {
+            "nivel_organizacion": "organos",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "celomado",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "ganglionar",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "sexual",
+            "habitat": "acuatico"
+        },
+        "definicion": "Los Nemertea, o gusanos cinta, son invertebrados acuáticos caracterizados por su probóscide eversible utilizada para capturar presas."
+    },
+    "porifera": {
+        "caracteristicas": {
+            "nivel_organizacion": "multicelular",
+            "simetria": "ninguna",
+            "capas_germinales": "ninguna",
+            "cavidad_corporal": "ausente",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "ausente",
+            "sistema_nervioso": "ausente",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "asexual",
+            "habitat": "acuatico"
+        },
+        "definicion": "Conocidos como esponjas, son organismos acuáticos multicelulares sin tejidos diferenciados."
+    },
+    "rotifera": {
+        "caracteristicas": {
+            "nivel_organizacion": "tejidos",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "pseudocelomado",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "ganglionar",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "sexual o partenogenesis",
+            "habitat": "acuatico"
+        },
+        "definicion": "Los Rotíferos son microorganismos acuáticos con un cuerpo cilíndrico y una corona de cilios en la cabeza, usados para la locomoción y alimentación."
+    },
+    "cnidaria": {
+        "caracteristicas": {
+            "nivel_organizacion": "tejidos",
+            "simetria": "radial",
+            "capas_germinales": "diploblastico",
+            "cavidad_corporal": "ninguna",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "incompleto",
+            "sistema_nervioso": "difuso",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "sexual",
+            "habitat": "acuatico"
+        },
+        "definicion": "Incluye medusas, corales y anémonas de mar, caracterizados por su simetría radial y células urticantes."
+    },
+    "ctenophora": {
+        "caracteristicas": {
+            "nivel_organizacion": "tejidos",
+            "simetria": "radial",
+            "capas_germinales": "diploblastico",
+            "cavidad_corporal": "ninguna",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "difuso",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "sexual",
+            "habitat": "acuatico"
+        },
+        "definicion": "Animales marinos con simetría radial y cilios en forma de peine para la locomoción."
+    },
+    "platyhelminthes": {
+        "caracteristicas": {
+            "nivel_organizacion": "organos",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "acelomado",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "incompleto",
+            "sistema_nervioso": "ganglionar",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "sexual",
+            "habitat": "acuatico o parasito"
+        },
+        "definicion": "Gusanos planos con simetría bilateral, triploblásticos y con un sistema digestivo incompleto."
+    },
+    "annelida": {
+        "caracteristicas": {
+            "nivel_organizacion": "organos",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "celomado",
+            "segmentacion": "segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "ganglionar",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "sexual",
+            "habitat": "acuatico o terrestre"
+        },
+        "definicion": "Gusanos segmentados como las lombrices de tierra y sanguijuelas, con un sistema circulatorio cerrado."
+    },
+    "mollusca": {
+        "caracteristicas": {
+            "nivel_organizacion": "organos",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "celomado",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "ganglionar",
+            "sistema_corporal": "exoesqueleto",
+            "reproduccion": "sexual",
+            "habitat": "acuatico o terrestre"
+        },
+        "definicion": "Incluye caracoles, almejas y pulpos; organismos con cuerpo blando y en muchos casos con concha."
+    },
+    "nematoda": {
+        "caracteristicas": {
+            "nivel_organizacion": "organos",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "pseudocelomado",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "ganglionar",
+            "sistema_corporal": "hidrostatico",
+            "reproduccion": "sexual",
+            "habitat": "acuatico o parasito"
+        },
+        "definicion": "Gusanos cilíndricos pseudocelomados, algunos de vida libre y otros parásitos de plantas y animales."
+    },
+    "arthropoda": {
+        "caracteristicas": {
+            "nivel_organizacion": "organos",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "celomado",
+            "segmentacion": "segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "ganglionar",
+            "sistema_corporal": "exoesqueleto",
+            "reproduccion": "sexual",
+            "habitat": "acuatico o terrestre"
+        },
+        "definicion": "El phylum más diverso, incluye insectos, arácnidos y crustáceos, con un exoesqueleto de quitina."
+    },
+    "echinodermata": {
+        "caracteristicas": {
+            "nivel_organizacion": "organos",
+            "simetria": "radial",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "celomado",
+            "segmentacion": "no segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "difuso",
+            "sistema_corporal": "endoesqueleto",
+            "reproduccion": "sexual",
+            "habitat": "acuatico"
+        },
+        "definicion": "Animales marinos como estrellas de mar y erizos, con simetría radial y endoesqueleto calcáreo."
+    },
+    "chordata": {
+        "caracteristicas": {
+           "nivel_organizacion": "sistemas",
+            "simetria": "bilateral",
+            "capas_germinales": "triploblastico",
+            "cavidad_corporal": "celomado",
+            "segmentacion": "segmentado",
+            "sistema_digestivo": "completo",
+            "sistema_nervioso": "centralizado",
+            "sistema_corporal": "endoesqueleto",
+            "reproduccion": "sexual",
+            "habitat": "acuatico, terrestre o aereo"
+        },
+        "definicion": "Incluye vertebrados como peces, anfibios, reptiles, aves y mamíferos, caracterizados por una notocorda."
+    }
+}

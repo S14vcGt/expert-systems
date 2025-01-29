@@ -1,7 +1,14 @@
+import json
 from experta import KnowledgeEngine, Rule
 from facts import Organism
-from phyla_data import phyla_caracteristicas, phyla_definiciones
 
+# Cargar datos desde el archivo JSON
+with open("phyla_data.json", "r", encoding="utf-8") as file:
+    phyla_data = json.load(file)
+
+# Extraer características y definiciones
+phyla_caracteristicas = {phylum: data["caracteristicas"] for phylum, data in phyla_data.items()}
+phyla_definiciones = {phylum: data["definicion"] for phylum, data in phyla_data.items()}
 
 class PhylumExpertSystem(KnowledgeEngine):
     def __init__(self):
@@ -37,8 +44,8 @@ class PhylumExpertSystem(KnowledgeEngine):
         porcentaje_mas_probable = (coincidencias / self.total_caracteristicas) * 100
 
         if porcentaje_mas_probable >= 70:
-            print(f"\nEl phylum más probable es: {phylum_mas_probable} ({porcentaje_mas_probable:.2f}%) coincidencias")
-            print(f"Definición: {phyla_definiciones[phylum_mas_probable]}\n")
+            print(f"El phylum más probable es: {phylum_mas_probable} ({porcentaje_mas_probable:.2f}%) coincidencias")
+            print(f"\nDefinición: {phyla_definiciones[phylum_mas_probable]}\n")
             print("Características del phylum:")
 
             for key, value in phyla_caracteristicas[phylum_mas_probable].items():

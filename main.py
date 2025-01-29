@@ -24,7 +24,7 @@ def main():
         "sistema_digestivo": ["ausente", "completo", "incompleto"],
         "sistema_nervioso": ["ausente", "difuso", "ganglionar", "centralizado"],
         "sistema_corporal": ["hidrostatico", "exoesqueleto", "endoesqueleto", "ausente"],
-        "reproduccion": ["asexual", "sexual", "asexual o sexual"],
+        "reproduccion": ["asexual", "sexual", "asexual o sexual", "sexual o partenogenesis"],
         "habitat": ["acuatico", "acuatico o parasito", "acuatico o terrestre", "acuatico, terrestre o aereo"]
     }
 
