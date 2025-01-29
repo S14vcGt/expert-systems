@@ -132,3 +132,18 @@ phyla_caracteristicas = {
         "habitat": "acuatico, terrestre o aereo",
     },
 }
+
+phyla_definiciones = {
+    "protozoa": "Organismos unicelulares eucariotas, generalmente microscópicos, que pueden vivir de forma libre o parasitaria.",
+    "porifera": "Conocidos como esponjas, son organismos acuáticos multicelulares sin tejidos diferenciados.",
+    "cnidaria": "Incluye medusas, corales y anémonas de mar, caracterizados por su simetría radial y células urticantes.",
+    "ctenophora": "Animales marinos con simetría radial y cilios en forma de peine para la locomoción.",
+    "platyhelminthes": "Gusanos planos con simetría bilateral, triploblásticos y con un sistema digestivo incompleto.",
+    "annelida": "Gusanos segmentados como las lombrices de tierra y sanguijuelas, con un sistema circulatorio cerrado.",
+    "mollusca": "Incluye caracoles, almejas y pulpos; organismos con cuerpo blando y en muchos casos con concha.",
+    "nematoda": "Gusanos cilíndricos pseudocelomados, algunos de vida libre y otros parásitos de plantas y animales.",
+    "arthropoda": "El phylum más diverso, incluye insectos, arácnidos y crustáceos, con un exoesqueleto de quitina.",
+    "echinodermata": "Animales marinos como estrellas de mar y erizos, con simetría radial y endoesqueleto calcáreo.",
+    "chordata": "Incluye vertebrados como peces, anfibios, reptiles, aves y mamíferos, caracterizados por una notocorda en alguna etapa de su desarrollo.",
+}
+
