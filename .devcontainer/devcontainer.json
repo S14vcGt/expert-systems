@@ -32,7 +32,8 @@
         "mechatroner.rainbow-csv",
         "GitHub.vscode-pull-request-github",
         "aaron-bond.better-comments",
-        "usernamehw.errorlens"
+        "usernamehw.errorlens",
+        "ms-toolsai.jupyter"
       ]
     }
   }

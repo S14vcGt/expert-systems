@@ -2,13 +2,14 @@ from tensorflow.keras.models import load_model
 import numpy as np
 from data_acces import get_filos
 
+
 def model_answer(input):
     question = np.array(input)
     question = question.reshape(1, -1)
-    
-    model = load_model('/workspaces/expert-systems/model/modelo.keras')
+
+    model = load_model('model/modelo.keras')
     pred = np.argmax(model.predict(question))
-   
+
     return pred
 
 
@@ -34,4 +35,6 @@ def agregar_filo():
 if __name__ == '__main__':
     chordata = [1, 1, 1, 0, 1, 0, 1, 1, 0, 1,
                 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0]
-    print(user_friendly_answer(chordata))
+    protozoa = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+    print(user_friendly_answer(protozoa))
