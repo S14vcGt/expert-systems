@@ -22,7 +22,7 @@ def user_friendly_answer(array):
 
 
 def find_all():
-    pass
+    return da.find_all_filos()
 
 
 def agregar_filo(raw_new_filo):

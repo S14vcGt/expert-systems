@@ -8,6 +8,9 @@ def get_filos():
 def get_filos_description():
     return dict(zip(df.index, df['descripcion']))
 
+def find_all_filos():
+    return dict(zip(df['Phylum'],df['descripcion']))
+
 def add_filo(dic):
     new_row = pd.Series(dic)
     df.loc[len(df)] = new_row

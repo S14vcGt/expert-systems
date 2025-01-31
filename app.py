@@ -12,12 +12,17 @@ def json():
 
 @app.route('/list_filos')
 def find_all():
-    pass
+    filos = model.find_all()
+    return jsonify(filos)
 
 @app.route('/new_filo', methods=['POST'])
 def add():
     data = request.get_json()
     return model.agregar_filo(data)
+
+@app.route('/edit_filo', methods=['PATCH'])
+def edit():
+    pass
 
 @app.route('/delete_filo',methods=['DELETE'])
 def delete():
