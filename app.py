@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask_cors import CORS
-from model.model import user_friendly_answer
+from model import user_friendly_answer
 model_input = []
 app = Flask(__name__)
 CORS(app)

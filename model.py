@@ -1,6 +1,6 @@
 from tensorflow.keras.models import load_model
 import numpy as np
-from model.data_acces import get_filos
+from data_acces import get_filos
 
 
 def model_answer(input):
