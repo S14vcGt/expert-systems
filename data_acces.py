@@ -6,10 +6,13 @@ def get_filos():
     return dict(zip(df.index, df['Phylum']))
 
 def get_filos_description():
-    pass#todo el empalme que sea del indice y la descripcion, no del filo y la desc
+    return dict(zip(df.index, df['descripcion']))
 
-def add_filo():
-    pass
+def add_filo(dic):
+    new_row = pd.Series(dic)
+    df.loc[len(df)] = new_row
+    df.to_csv('filos.csv', index=False)
+    print(df)
 
 def edit_filo():
     pass

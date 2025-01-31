@@ -1,14 +1,14 @@
-Phylum,tejido,organos,sistemas,simetria_radial,simetria_bilateral,diploblastico,triploblastico,segmentacion,seudocelomados,celomados,sis_digetivo_incompleto,sis_digestivo_completo,sis_nervioso_difuso,sis_nervioso_ganglionar,sis_nervioso_central,endoesqueleto,exoesqueleto,sis_corporal,rep_sexual,rep_asexual,habitat_terrestre,habitat_acuatico,parasitario
-chordata,1,1,1,0,1,0,1,1,0,1,0,1,0,0,1,1,0,0,1,0,1,1,0
-echinodermata,1,1,0,1,0,0,1,0,0,1,0,1,1,0,0,1,0,0,1,0,0,1,0
-arthropoda,1,1,0,0,1,0,1,1,0,1,0,1,0,1,0,0,1,0,1,0,1,1,0
-annelida,1,1,0,0,1,0,1,1,0,1,0,1,0,1,0,0,0,1,1,0,1,1,0
-molusca,1,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,1,1,0
-rotifera,1,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,1,1,1,0,1,0
-nematoda,1,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,1,1,0,0,1,1
-nemertea,1,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0
-platyhelmithes,1,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,1,0,0,1,1
-ctenophera,1,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,0
-cnidaria,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,1,0
-polifera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0
-protozooarios,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+Phylum,descripcion,tejido,organos,sistemas,simetria_radial,simetria_bilateral,diploblastico,triploblastico,segmentacion,seudocelomados,celomados,sis_digetivo_incompleto,sis_digestivo_completo,sis_nervioso_difuso,sis_nervioso_ganglionar,sis_nervioso_central,endoesqueleto,exoesqueleto,hidrostatico,rep_sexual,rep_asexual,habitat_terrestre,habitat_acuatico,parasitario
+chordata,"El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,1,0,1,0,1,1,0,1,0,1,0,0,1,1,0,0,1,0,1,1,0
+echinodermata,"1El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,1,0,0,1,0,0,1,0,1,1,0,0,1,0,0,1,0,0,1,0
+arthropoda,"2El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,0,1,0,1,1,0,1,0,1,0,1,0,0,1,0,1,0,1,1,0
+annelida,"3El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,0,1,0,1,1,0,1,0,1,0,1,0,0,0,1,1,0,1,1,0
+molusca,"4El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,1,1,0
+rotifera,"5El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,1,1,1,0,1,0
+nematoda,"6El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,1,1,0,0,1,1
+nemertea,"7El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0
+platyhelmithes,"8El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,1,0,0,1,1
+ctenophera,"9El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,0
+cnidaria,"10El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,1,0
+polifera,"11El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0
+protozooarios,"12El filo Chordata incluye a los animales que poseen, en algún momento de su vida, un cordón nervioso dorsal (médula espinal), un sustento interno (notocorda), hendiduras branquiales y una cola post-anal.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1

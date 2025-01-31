@@ -1,6 +1,6 @@
 from tensorflow.keras.models import load_model
 import numpy as np
-from data_acces import get_filos
+import data_acces as da
 
 
 def model_answer(input):
@@ -15,9 +15,21 @@ def model_answer(input):
 
 def user_friendly_answer(array):
     ans = model_answer(array)
-    filos = get_filos()#todo el empalme que sea del indice y la descripcion, no del filo y la desc
+    filos = da.get_filos()
+    descriptions = da.get_filos_description()
 
-    return {"filo":filos[ans]}
+    return {"filo": filos[ans], "descripcion": descriptions[ans]}
+
+
+def find_all():
+    pass
+
+
+def agregar_filo(raw_new_filo):
+
+    new_filo = {}
+
+    da.add_filo()
 
 
 def editar_filo():
@@ -25,10 +37,6 @@ def editar_filo():
 
 
 def eliminar_filo():
-    pass
-
-
-def agregar_filo():
     pass
 
 
