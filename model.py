@@ -7,7 +7,7 @@ def model_answer(input):
     question = np.array(input)
     question = question.reshape(1, -1)
 
-    model = load_model('model/modelo.keras')
+    model = load_model('modelo.keras')
     pred = np.argmax(model.predict(question))
 
     return pred
@@ -15,9 +15,9 @@ def model_answer(input):
 
 def user_friendly_answer(array):
     ans = model_answer(array)
-    filos = get_filos()
+    filos = get_filos()#todo el empalme que sea del indice y la descripcion, no del filo y la desc
 
-    return filos[ans]
+    return {"filo":filos[ans]}
 
 
 def editar_filo():
