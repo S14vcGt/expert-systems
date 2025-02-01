@@ -2,14 +2,11 @@ import pandas as pd
 
 df = pd.read_csv('filos.csv')
 
+
 def get_filos():
-    return dict(zip(df.index, df['Phylum']))
+    filter_df = df.iloc[:, :2]
+    return filter_df.to_dict(orient='index')
 
-def get_filos_description():
-    return dict(zip(df.index, df['descripcion']))
-
-def find_all_filos():
-    return dict(zip(df['Phylum'],df['descripcion']))
 
 def add_filo(dic):
     new_row = pd.Series(dic)
@@ -17,11 +14,16 @@ def add_filo(dic):
     df.to_csv('filos.csv', index=False)
     print(df)
 
-def edit_filo():
-    pass
 
-def delete_filo():
-    pass
+'''def edit_filo():
+    pass'''
+
+
+def delete_filo(index):
+    df2 = df.drop(index)
+    df2.to_csv('filos.csv', index=False)
+    print(df)
+
 
 if __name__ == '__main__':
     print(get_filos())

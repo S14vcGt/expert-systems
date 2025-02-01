@@ -4,6 +4,7 @@ import data_acces as da
 from support_data import diccionario_de_referencia
 from training import retraining
 
+
 def model_answer(input):
     question = np.array(input)
     question = question.reshape(1, -1)
@@ -17,13 +18,12 @@ def model_answer(input):
 def user_friendly_answer(array):
     ans = model_answer(array)
     filos = da.get_filos()
-    descriptions = da.get_filos_description()
 
-    return {"filo": filos[ans], "descripcion": descriptions[ans]}
+    return filos[ans]
 
 
 def find_all():
-    return da.find_all_filos()
+    return da.get_filos()
 
 
 def agregar_filo(raw_new_filo):
@@ -35,27 +35,31 @@ def agregar_filo(raw_new_filo):
     new_filo = diccionario_de_referencia.copy()
     new_filo['Phylum'] = name_filo
     new_filo['descripcion'] = desc_filo
-    
+
     keys = list(new_filo.keys())
     keys = keys[2:]
     i = 0
     for attribute in keys:
         new_filo[attribute] = carac[i]
-        i+=1
+        i += 1
 
-
-    da.add_filo(new_filo )
+    da.add_filo(new_filo)
 
     loss, accuracy = retraining()
-    return {'message':f'filo agregado con exito, el modelo se reentreno con una precision de {accuracy}, y una perdida de {loss}'}
+    return {'message': f'filo agregado con exito, el modelo se reentreno con una precision de {accuracy}, y una perdida de {loss}'}
 
 
-def editar_filo():
+'''def editar_filo():
     pass
+'''
 
 
-def eliminar_filo():
-    pass
+def eliminar_filo(index):
+
+    da.delete_filo(index)
+
+    loss, accuracy = retraining()
+    return {'message': f'filo eliminado con exito, el modelo se reentreno con una precision de {accuracy}, y una perdida de {loss}'}
 
 
 if __name__ == '__main__':
