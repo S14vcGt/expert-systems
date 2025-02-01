@@ -2,7 +2,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 import data_acces as da
 from support_data import diccionario_de_referencia
-
+from training import retraining
 
 def model_answer(input):
     question = np.array(input)
@@ -46,7 +46,8 @@ def agregar_filo(raw_new_filo):
 
     da.add_filo(new_filo )
 
-    return {'message':'filo agregado con exito'}
+    loss, accuracy = retraining()
+    return {'message':f'filo agregado con exito, el modelo se reentreno con una precision de {accuracy}, y una perdida de {loss}'}
 
 
 def editar_filo():

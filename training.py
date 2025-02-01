@@ -31,3 +31,5 @@ def retraining():
     
     model.save("modelo.keras")
     os.chmod("modelo.keras", 0o666)
+    
+    return model.evaluate(X,  y_encoded, verbose=2)
