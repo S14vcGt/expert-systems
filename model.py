@@ -29,7 +29,8 @@ def agregar_filo(raw_new_filo):
 
     new_filo = {}
 
-    da.add_filo()
+    da.add_filo(new_filo )
+    return {'filo agregado con exito'}
 
 
 def editar_filo():

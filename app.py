@@ -18,7 +18,7 @@ def find_all():
 @app.route('/new_filo', methods=['POST'])
 def add():
     data = request.get_json()
-    return model.agregar_filo(data)
+    return jsonify(model.agregar_filo(data))
 
 @app.route('/edit_filo', methods=['PATCH'])
 def edit():
