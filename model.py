@@ -1,6 +1,7 @@
 from tensorflow.keras.models import load_model
 import numpy as np
 import data_acces as da
+from support_data import diccionario_de_referencia
 
 
 def model_answer(input):
@@ -27,10 +28,25 @@ def find_all():
 
 def agregar_filo(raw_new_filo):
 
-    new_filo = {}
+    carac: list = raw_new_filo['caracteristicas']
+    name_filo = raw_new_filo['filo']
+    desc_filo = raw_new_filo['descripcion']
+
+    new_filo = diccionario_de_referencia.copy()
+    new_filo['Phylum'] = name_filo
+    new_filo['descripcion'] = desc_filo
+    
+    keys = list(new_filo.keys())
+    keys = keys[2:]
+    i = 0
+    for attribute in keys:
+        new_filo[attribute] = carac[i]
+        i+=1
+
 
     da.add_filo(new_filo )
-    return {'filo agregado con exito'}
+
+    return {'message':'filo agregado con exito'}
 
 
 def editar_filo():
