@@ -10,16 +10,21 @@ def model_answer(input):
     question = question.reshape(1, -1)
 
     model = load_model('modelo.keras')
-    pred = np.argmax(model.predict(question))
+    pred = model.predict(question)
+    filo = np.argmax(pred)
+    pred2 = pred.tolist()
 
-    return pred
+    return (filo, pred2[0][filo])
 
 
 def user_friendly_answer(array):
     ans = model_answer(array)
-    filos = da.get_filos()
-
-    return filos[ans]
+    if ans[1] > .9:
+        filos = da.get_filos()
+        return filos[ans[0]]
+    else:
+        return {"Phylum": "desconocido",
+                "descripcion": "El filo que se describio no esta dentro de la base de conocimiento de este sistema"}
 
 
 def find_all():
