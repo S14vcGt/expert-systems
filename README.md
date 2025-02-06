@@ -9,6 +9,6 @@ To run the server, you can use `gunicorn app:app`, it will take the port 8000
 
 ## some resources used for development
 
-- [A tensorflow tutorial on basic classification with NN](https://www.tensorflow.org/tutorials/keras/classification?hl=es-419)
+- [A Tensorflow tutorial on basic classification with NN](https://www.tensorflow.org/tutorials/keras/classification?hl=es-419)
 
--![https://www.youtube.com/watch?v=U0ygkUmu7BA&t=169s]
+-![a tutorial on binary XOR with Tensorflow](https://www.youtube.com/watch?v=U0ygkUmu7BA&t=169s)
