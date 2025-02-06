@@ -1,5 +1,6 @@
 from tensorflow.keras.models import load_model
 import numpy as np
+import uuid
 import data_acces as da
 from support_data import diccionario_de_referencia
 from training import retraining
@@ -28,7 +29,12 @@ def user_friendly_answer(array):
 
 
 def find_all():
-    return da.get_filos()
+    filos = da.get_filos()
+    # Agregar la propiedad 'id' a cada registro
+    for index_registro, registro in filos.items():
+        registro['id'] = uuid.uuid4()  # Generamos un UUID
+
+    return filos
 
 
 def agregar_filo(raw_new_filo):
