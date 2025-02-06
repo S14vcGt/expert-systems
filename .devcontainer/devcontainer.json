@@ -33,7 +33,8 @@
         "GitHub.vscode-pull-request-github",
         "aaron-bond.better-comments",
         "usernamehw.errorlens",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "adpyke.codesnap"
       ]
     }
   }
