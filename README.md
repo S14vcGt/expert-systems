@@ -1,7 +1,7 @@
 # expert-systems
 Expert Systems university course repository
 
-To run the server, you can use `gunicorn app:app`, it will take the port 8000
+To run the server, you can use `gunicorn -c gunicorn_config.py app:app`, it will take the port 8000
 
 ## Filos en los que se basa el proyecto
 
