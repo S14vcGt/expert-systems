@@ -30,6 +30,6 @@ def retraining():
     _= model.fit(X,y_encoded, epochs=50)
     
     model.save("modelo.keras")
-    os.chmod("modelo.keras", 0o666)
+    #os.chmod("modelo.keras", 0o666)
     
     return model.evaluate(X,  y_encoded, verbose=2)
